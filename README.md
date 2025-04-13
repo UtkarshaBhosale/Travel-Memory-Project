@@ -163,30 +163,58 @@ echo "✅ Frontend deployed and accessible at http://example.com"
 ---
 
 ## 🧱 **Deployment Architecture Diagram**
-
-![image](https://github.com/user-attachments/assets/70472be8-554a-4b4e-8fbd-d71ea4cfdc1f)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/70472be8-554a-4b4e-8fbd-d71ea4cfdc1f" alt="Frontend EC2" width="800">
+</p>
 
 ---
 
 ## ⚙️ **Backend Deployment Flow**
 
-1. **Launch Templates**  
-   ![Launch Templates](https://github.com/user-attachments/assets/d83be5cb-ac8f-47cc-a6c1-3d5d26864f8c)
-2. **Target Groups**  
-   ![Target Groups](https://github.com/user-attachments/assets/7403fdda-5bf6-4471-836a-d3a39acdc3d4)
-3. **ALB (Application Load Balancer)**  
-   ![ALB](https://github.com/user-attachments/assets/739d382c-1b86-4364-a45a-a1460050c649)
-4. **Auto Scaling Groups (ASG)**  
-   ![ASG](https://github.com/user-attachments/assets/f92c3189-1af5-4c76-9778-243a5cde2d00)
+### 1. **Launch Templates**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d83be5cb-ac8f-47cc-a6c1-3d5d26864f8c" alt="Frontend EC2" width="800">
+  <img src="https://github.com/user-attachments/assets/14aaaefb-5a4c-49cf-8299-ca20c173f5a3" alt="Frontend EC2" width="800">
+</p>
+
+### 2. **Target Groups**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7403fdda-5bf6-4471-836a-d3a39acdc3d4" alt="Screenshot 1" width="800">
+  <img src="https://github.com/user-attachments/assets/5aab5f5d-dc58-4ef3-bf93-2c1848219324" alt="Screenshot 2" width="800">
+  <img src="https://github.com/user-attachments/assets/230792d5-9659-45e8-b1b3-4931668c5e56" alt="Screenshot 3" width="800">
+</p>
+
+### 3. **Application Load Balancer (ALB)**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/739d382c-1b86-4364-a45a-a1460050c649" alt="ALB Screenshot 1" width="800">
+  <img src="https://github.com/user-attachments/assets/fc6987f4-5f81-45bc-95e8-03cbf0fb59fe" alt="ALB Screenshot 2" width="800">
+</p>
+
+### 4. **Auto Scaling Groups (ASG)**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f92c3189-1af5-4c76-9778-243a5cde2d00" alt="ASG Screenshot" width="800">
+</p>
 
 ---
 
 ## 🌐 **Frontend Deployment Flow**
 
-1. **EC2 Instance for Static Files**  
-   ![Frontend EC2](https://github.com/user-attachments/assets/3694814a-82af-48b1-91a1-b087fd7b3f03)
-2. **Cloudflare DNS Configuration**  
-   ![Cloudflare DNS](https://github.com/user-attachments/assets/38889044-07e0-4722-9a5e-cde98d41d48a)
+### 1. **EC2 Instance for Static Files**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3694814a-82af-48b1-91a1-b087fd7b3f03" alt="EC2 Static Files" width="800">
+</p>
+
+### 2. **Cloudflare DNS Configuration (A Record)**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/38889044-07e0-4722-9a5e-cde98d41d48a" alt="Cloudflare A Record 1" width="800">
+  <img src="https://github.com/user-attachments/assets/dfbb7c60-29c4-41f8-a0a2-a17b025ee9e6" alt="Cloudflare A Record 2" width="800">
+</p>
+
+### 3. **Application Live at Example.com**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/366ccbe1-4a9c-4041-8a83-83074a1e4565" alt="Application Live Screenshot" width="800">
+</p>
+
 
 ---
 
