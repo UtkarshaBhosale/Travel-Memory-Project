@@ -5,9 +5,6 @@ Travel Memory is a scalable full-stack application built with the **MERN** stack
 ---
 
 
-
----
-
 ## 📘 **Project Description**  
 **Travel Memory** is a full-stack application using the **MERN** stack. It allows users to document and share travel memories, offering an intuitive platform for organizing travel logs. This guide covers deployment on **Amazon EC2**, Nginx reverse proxy configuration, Cloudflare DNS and SSL integration, and scalability using **AWS ALB** and **Auto Scaling Groups**.
 
@@ -167,7 +164,7 @@ echo "✅ Frontend deployed and accessible at http://example.com"
 
 ## 🧱 **Deployment Architecture Diagram**
 
-![Deployment Architecture](https://path-to-your-screenshot.com/diagram_travelmemory_resized.png)
+![image](https://github.com/user-attachments/assets/70472be8-554a-4b4e-8fbd-d71ea4cfdc1f)
 
 ---
 
