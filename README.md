@@ -204,12 +204,6 @@ echo "✅ Frontend deployed and accessible at http://example.com"
   <img src="https://github.com/user-attachments/assets/3694814a-82af-48b1-91a1-b087fd7b3f03" alt="EC2 Static Files" width="800">
 </p>
 
-### 2. **Cloudflare DNS Configuration (A Record)**
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/38889044-07e0-4722-9a5e-cde98d41d48a" alt="Cloudflare A Record 1" width="800">
-  <img src="https://github.com/user-attachments/assets/dfbb7c60-29c4-41f8-a0a2-a17b025ee9e6" alt="Cloudflare A Record 2" width="800">
-</p>
-
 ### 3. **Application Live at Example.com**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/366ccbe1-4a9c-4041-8a83-83074a1e4565" alt="Application Live Screenshot" width="800">
@@ -249,9 +243,10 @@ To ensure high availability, set up **AWS Load Balancer** and **Auto Scaling**:
 2. **Create DNS Records**:
    - **A Record**: Point to the public IP of the EC2 instance.
    - **CNAME Record**: Point to the AWS Load Balancer DNS endpoint.
-     ![Screenshot 2025-04-13 211223](https://github.com/user-attachments/assets/38889044-07e0-4722-9a5e-cde98d41d48a)
-     ![Screenshot 2025-04-13 212205](https://github.com/user-attachments/assets/dfbb7c60-29c4-41f8-a0a2-a17b025ee9e6)
-
+     <p align="center">
+  <img src="https://github.com/user-attachments/assets/38889044-07e0-4722-9a5e-cde98d41d48a" alt="Cloudflare A Record 1" width="800">
+  <img src="https://github.com/user-attachments/assets/dfbb7c60-29c4-41f8-a0a2-a17b025ee9e6" alt="Cloudflare A Record 2" width="800">
+</p>
 
 ---
 
